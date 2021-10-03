@@ -1,7 +1,8 @@
+<!doctype html>
 <html>
     <head>
         <title>Hacktober</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -17,16 +18,24 @@
                     </div>
                 </div>
                 <div class="content">
-                    <h1>HACTOBERFIESTA-21</h1>
-                    <div class="underline-txt"><h2>PARTICIPATION CARD</h2></div>
+                    <center>
+                        <h1>HACTOBERFIESTA-21</h1>
+                    </center
+                    <div class="underline-txt">
+                        <center>
+                            <h2>PARTICIPATION CARD</h2>
+                        </center>
+                    </div>
                     <div class="img-details">
-                        <img src="img/Shiyas.jpg">
-                        <h4>SHIYAS MOHAMMED</h4>
+                        <img src="{{url_for('static', filename='images/Shiyas.jpg')}}">
+                        <h4>{{name}}</h4>
                         <h5>GEC THRISSUR</h5>
                     </div>
                 </div>
                 <div class="congrats">
-                    <h1>CONGRATULATIONS</h1>
+                    <center>
+                        <h1>CONGRATULATIONS</h1>
+                    </center>
                 </div>
             </div>
         </div>
