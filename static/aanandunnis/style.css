@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8e4e3;
+  font-family: helvetica;
+}
+.container {
+  height: calc(100vh - 40px);
+  border-top: 20px solid #f84701;
+  border-bottom: 20px solid #f84701;
+}
+.header {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  font-size: 14px;
+}
+.h-txt-1 {
+  float: left;
+  padding: 40px 0 0 40px;
+}
+.h-txt-1 h4 {
+  margin: 0;
+}
+.h-txt-2 {
+  float: right;
+  padding: 40px 40px 40px 0;
+}
+.h-txt-2 h4,
+h3 {
+  margin: 0;
+}
+.content h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.content h2 {
+  font-weight: 100;
+  font-size: 20px;
+  border-bottom: 1.6px solid #f84701;
+}
+.underline-txt {
+  width: fit-content;
+  margin: 0 auto;
+}
+.img-details {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+.img-details img {
+  width: 100%;
+  border-radius: 10px;
+}
+.img-details h4 {
+  margin-bottom: 0;
+}
+.img-details h5 {
+  margin-top: 5px;
+}
+.congrats {
+  text-align: center;
+  margin-top: 75px;
+}
+.congrats h1 {
+  font-size: 25px;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .container {
+    height: fit-content;
+  }
+
+  .container-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .congrats {
+    margin: 75px;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (min-width: 1000px) {
+  .container-main {
+    width: 60%;
+  }
+}

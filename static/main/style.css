@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbf5f5;
+  font-family: helvetica;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left {
+  flex: 70%;
+  background-image: url("./cover.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.right {
+  flex: 30%;
+  height: 86vh;
+  padding-top: 7vh;
+}
+
+#list {
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.participant {
+  padding: 20px;
+  color: #f34600;
+}
+
+.participant div a {
+  color: #a7866c;
+  text-decoration: none;
+}
+
+.blank {
+  height: 100vh;
+}
