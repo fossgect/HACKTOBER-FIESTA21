@@ -13,7 +13,7 @@ def home():
 @app.route('/<name>')
 def card(name):
     try:
-    	return render_template('%s.html' %name, name = "%s" %name)
+    	return render_template('%s.html' %name)
     except Exception as e:
     	return render_template('main/404.html', content="Template")
 
