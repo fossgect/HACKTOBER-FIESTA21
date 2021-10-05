@@ -15,25 +15,10 @@ body {
   font-family: Arial-Nova-Condensed;
 }
 
-#download-card {
-  background-color: #f84603;
-  padding: 10px;
-  border-radius: 5px;
-  border-color: #fbf5f5;
-  border-width: 2px;
-  margin: 20px 0px 50px 0px;
-  width: 15%;
-  margin-left: 42.5%;
-  color: #fbf5f5;
-  font-size: 17px;
-  font-family: Arial-Nova-Condensed-Bold;
-}
-
 .container {
   height: 80vh;
   width: 24vw;
   margin: auto;
-  margin-top: 5vh;
   margin-bottom: 5vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;

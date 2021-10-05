@@ -1,0 +1,45 @@
+.download-card {
+  background-color: #f84603;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #fbf5f5;
+  border-width: 2px;
+  margin: 20px 0px 50px 0px;
+  width: 15%;
+  margin-left: 42.5%;
+  color: #fbf5f5;
+  font-size: 17px;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+.back-button {
+  width: 50px;
+  margin: 20px 0px 0px 20px;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+  .download-card {
+    width: 20%;
+    margin-left: 40%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+  .download-card {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 500px) {
+  #download-card {
+    width: 50%;
+    margin-left: 25%;
+  }
+}

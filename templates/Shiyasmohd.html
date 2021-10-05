@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="{{url_for('static', filename='Shiyasmohd/style.css')}}" type="text/css">
     </head>
     <body>
+        {% include 'main/back-button.html' %}
         <div class="container" id="download">
             <div class="header">
                 <div class="foss-logo">
@@ -37,10 +38,6 @@
                 </div>
             </div>
         </div>
-        <button id="download-card">Download Card</button>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
-        <script src="{{url_for('static', filename='main/js/html2canvas.js')}}"></script>
-        <script src="{{url_for('static', filename='main/js/convert.js')}}"></script>
+        {% include 'main/download-card.html' %}
     </body>
 </html>
