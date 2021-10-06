@@ -7,7 +7,11 @@
         <link rel="stylesheet" href="{{url_for('static', filename='Shiyasmohd/style.css')}}" type="text/css">
     </head>
     <body>
+
+        <!--include back(return to home) button-->
         {% include 'main/back-button.html' %}
+        
+        <!-- id="download" gives the div to be downloaded as PNG -->
         <div class="container" id="download">
             <div class="header">
                 <div class="foss-logo">
@@ -38,6 +42,8 @@
                 </div>
             </div>
         </div>
+
+        <!--include download card button-->
         {% include 'main/download-card.html' %}
     </body>
 </html>

@@ -112,11 +112,6 @@ body {
   .header {
     margin-top: 40px;
   }
-
-  #download-card {
-    width: 20%;
-    margin-left: 40%;
-  }
 }
 
 /* ----------------------------------------------------------------- */
@@ -124,11 +119,6 @@ body {
 @media only screen and (max-width: 800px) {
   .container {
     width: 40%;
-  }
-
-  #download-card {
-    width: 30%;
-    margin-left: 35%;
   }
 }
 
@@ -145,11 +135,6 @@ body {
 @media only screen and (max-width: 500px) {
   .container {
     width: 70%;
-  }
-
-  #download-card {
-    width: 50%;
-    margin-left: 25%;
   }
 }
 

@@ -38,7 +38,7 @@
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
-  #download-card {
+  .download-card {
     width: 50%;
     margin-left: 25%;
   }
