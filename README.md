@@ -10,7 +10,7 @@ As the first step, you have to `fork` this repository to your own github account
 
 ### Step 2 - Edit HTML and _namelist.html
 
-- Change the `<name>.html` to `<your_gitusername>.html`. If your username is `abc` then change the html file name to `abc.html`. 
+- Change the `<name>.html` to `<your_gitusername>.html` inside `templates` folder. If your username is `abc` then change the html file name to `abc.html`. 
 - Open the html file in text editor of your choice. Change the name inside `<title>` tag. <br>
 ![title](https://github.com/dkowsikpai/card/blob/main/Screenshots/title.png)
 - Edit Your name and College name in `<div>` with class details. <br>
