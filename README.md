@@ -22,7 +22,7 @@ As the first step, you have to `fork` this repository to your own github account
 - Push your changes to the github repository.
 - Go To Pull requests tab on github
 - Click on `New Pull Request` button. 
-- Make sure that head repositry is your repository
+- Make sure that head repository is your repository
 ![Pull Request Head](https://github.com/dkowsikpai/card/blob/main/Screenshots/PR%20Head.png)
 - Make sure it is showing green tick mark
 - Press on `Create Pull Request` Button
