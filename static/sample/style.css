@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Arial-Nova-Condensed;
+  src: url(../main/font/ArialNovaCond.ttf);
+}
+
+@font-face {
+  font-family: Arial-Nova-Condensed-Bold;
+  src: url(../main/font/ArialNovaCond-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbf5f5;
+  font-family: Arial-Nova-Condensed;
+}
+
+.container {
+  height: 80vh;
+  width: 24vw;
+  margin: auto;
+  margin-bottom: 5vh;
+  border-width: 25px 2px 25px 2px;
+  border-style: solid;
+  border-color: #f84603;
+  background-color: #fbf5f5;
+}
+
+.header {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  flex: 50%;
+}
+
+.foss-logo img {
+  width: 32%;
+  margin-left: 20%;
+}
+
+.tinkerhub-logo img {
+  width: 50%;
+  margin-left: 37.5%;
+  margin-top: 1px;
+}
+
+.event-header {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+.card-purpose {
+  width: max-content;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 23px;
+  border-bottom: 1px solid #f84603;
+}
+
+.image img {
+  width: 45%;
+  margin-left: 27.5%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.details {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.participant-college {
+  font-size: 14px;
+}
+
+.congrats {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    height: 90vh;
+    width: 30vw;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    height: 90vh;
+    width: 35vw;
+  }
+
+  .header {
+    margin-top: 40px;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 40%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 675px) {
+  .container {
+    width: 50%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
