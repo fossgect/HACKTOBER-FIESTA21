@@ -35,9 +35,9 @@ body {
 }
 
 .header {
-  margin-top: 40px;
   width: 100%;
   display: flex;
+  margin-top: 7vh;
 }
 
 .logo {
@@ -58,7 +58,7 @@ body {
 .event-header {
   font-size: 25px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 6vh;
   font-family: Arial-Nova-Condensed-Bold;
 }
 
@@ -67,7 +67,7 @@ body {
   margin: auto;
   font-size: 16px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 3vh;
   line-height: 23px;
   border-bottom: 1px solid #f84603;
 }
@@ -75,14 +75,14 @@ body {
 .image img {
   width: 45%;
   margin-left: 27.5%;
-  margin-top: 20px;
+  margin-top: 2vh;
   border-radius: 10px;
 }
 
 .details {
   font-size: 16px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 2vh;
 }
 
 .participant-college {
@@ -92,7 +92,7 @@ body {
 .congrats {
   font-size: 20px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5vh;
   font-family: Arial-Nova-Condensed-Bold;
 }
 
@@ -104,12 +104,9 @@ body {
     width: 30vw;
   }
 
-  .header {
-    margin-top: 30px;
-  }
-
-  .card-purpose {
-    margin-top: 40px;
+  .image img {
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
@@ -121,20 +118,29 @@ body {
     width: 35vw;
   }
 
-  .header {
-    margin-top: 40px;
+  .image img {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+  .card-purpose {
+    margin-top: 4vh;
   }
 }
 
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 800px) {
+  .header {
+    margin-top: 10vh;
+  }
+
   .container {
     width: 40%;
   }
 
-  .card-purpose {
-    margin-top: 50px;
+  .image img {
+    margin-top: 4vh;
   }
 }
 
@@ -144,29 +150,17 @@ body {
   .container {
     width: 50%;
   }
-
-  .header {
-    margin-top: 50px;
-  }
-
-  .card-purpose {
-    margin-top: 40px;
-  }
 }
 
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
+  .header {
+    margin-top: 8vh;
+  }
+
   .container {
     width: 70%;
-  }
-
-  .header {
-    margin-top: 40px;
-  }
-
-  .card-purpose {
-    margin-top: 30px;
   }
 }
 
@@ -175,13 +169,5 @@ body {
 @media only screen and (max-width: 400px) {
   .container {
     width: 90%;
-  }
-
-  .header {
-    margin-top: 40px;
-  }
-
-  .card-purpose {
-    margin-top: 40px;
   }
 }
