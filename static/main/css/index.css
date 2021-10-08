@@ -11,12 +11,19 @@
 html {
   width: 100%;
   height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fbf5f5;
+  background-color: #fdf7fb;
 }
 
 .container {
@@ -27,7 +34,7 @@ body {
 
 .left {
   flex: 70%;
-  background-image: url("../images/cover.jpeg");
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -52,7 +59,7 @@ body {
 }
 
 .participant-header {
-  color: #fbf5f5;
+  color: #fdf7fb;
   position: sticky;
   top: 25px;
   background-color: #b23a28;
@@ -106,5 +113,13 @@ body {
 
   .list {
     margin: auto;
+  }
+}
+
+/*-----------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+  .left {
+    background-size: contain;
   }
 }
