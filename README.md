@@ -59,6 +59,42 @@ Copy the relevant section of code as shown below and insert another record with 
 
 <br>
 
+### Intial Commit 
+You can check your change using the following command
+
+```
+ git status
+```
+this command will show you the changes that you have made and left untracked, you have to add these changes to the staging area.
+
+<br> 
+Now, you should add it to the staging area using the following command.
+
+```
+  git add <particular commit>
+```
+<br>
+Now that the changes are tracked or added to the staging area you should make a commit regarding that particular change using the following command in the terminal
+
+```
+  git commit -m "<commit message>" 
+```
+The `commit message` message should specify what is the change made for, it will result in well documentation of the project
+
+<br>
+
+### Pushing the commit
+<br> 
+Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
+
+```
+  git push --set-upstream origin master
+```
+This will automatically push your commit to the remote repository, it may ask your password / passphrase for authentication.
+
+
+<br>
+
 ### Your Initial Pull Request(PR)
 - Push your changes to the github repository.
 - Go To Pull requests tab on github
