@@ -25,7 +25,15 @@ git clone <url_to_forked_repository>
 
 <br>
 
-### Step 3 - Install Flask
+### Step 3 - Changing working directory
+This will change the working directory to the newly cloned repository. 
+```
+  cd card/
+```
+
+<br>
+
+### Step 4 - Install Flask
 Use pip to install flask. 
 ```
   pip install flask
@@ -33,7 +41,7 @@ Use pip to install flask.
 
 <br>
 
-### Step 4 - Run the application
+### Step 5 - Run the application
 The application can be run using the command. The application will be running at `localhost:5000` by default.
 ```
 python app.py
