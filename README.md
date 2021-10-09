@@ -28,7 +28,7 @@ git clone <url_to_forked_repository>
 ### Step 3 - Changing working directory
 This will change the working directory to the newly cloned repository. 
 ```
-  cd card/
+  cd HACKTOBER-FIESTA21/
 ```
 
 <br>
@@ -79,10 +79,11 @@ this command will show you the changes that you have made and left untracked, yo
 Now, you should add it to the staging area using the following command.
 
 ```
-  git add <particular commit>
+  git add .
 ```
+`.` specifies to add all the chnges to the staging area.
 <br>
-Now that the changes are tracked or added to the staging area you should make a commit regarding that particular change using the following command in the terminal
+Now that the changes are tracked or added to the staging area you should make a commit regarding that particular change using the following command in the terminal. 
 
 ```
   git commit -m "<commit message>" 
