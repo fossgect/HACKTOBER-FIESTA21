@@ -81,10 +81,10 @@ Now that the changes are tracked or added to the staging area you should make a 
 ```
 The `commit message` message should specify what is the change made for, it will result in well documentation of the project
 
-<br>
+<br><br>
 
 ### Pushing the commit
-<br> 
+
 Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
 
 ```
@@ -93,7 +93,7 @@ Now that you have commited your changes you should push the changes to the remot
 This will automatically push your commit to the remote repository, it may ask your password / passphrase for authentication.
 
 
-<br>
+<br><br>
 
 ### Your Initial Pull Request(PR)
 - Push your changes to the github repository.
