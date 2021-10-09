@@ -1,18 +1,8 @@
-from flask import Flask, render_template
-import git
+from flask import Flask, render_template, url_for
 import os
 
 
 app = Flask(__name__)
-
-#route to implement continuous deployment using webhook 
-def git_update():
-  repo = git.Repo('./card')
-  origin = repo.remotes.origin
-  repo.create_head('main', 
-  origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
-  origin.pull()
-  return '', 200
 
 @app.route('/')
 def home():
