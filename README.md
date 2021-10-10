@@ -97,7 +97,7 @@ The `commit message` message should specify what is the change made for, it will
 Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
 
 ```
-  git push --set-upstream origin master
+  git push -u origin main
 ```
 This will automatically push your commit to the remote repository, it may ask your password / passphrase for authentication.
 
