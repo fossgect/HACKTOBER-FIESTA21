@@ -54,7 +54,7 @@ python app.py
 ## Tasks
 
 ### PR 1 - feature on home page
-Open the file _namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given.
+Open the file &namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given.
 Copy the relevant section of code as shown below and insert another record with your own details.
 ```
 <a class="participant" href="/<github-username>">
@@ -97,7 +97,7 @@ The `commit message` message should specify what is the change made for, it will
 Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
 
 ```
-  git push --set-upstream origin master
+  git push -u origin main
 ```
 This will automatically push your commit to the remote repository, it may ask your password / passphrase for authentication.
 
