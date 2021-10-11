@@ -54,7 +54,7 @@ python app.py
 ## Tasks
 
 ### PR 1 - feature on home page
-Open the file _namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given.
+Open the file &namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given.
 Copy the relevant section of code as shown below and insert another record with your own details.
 ```
 <a class="participant" href="/<github-username>">
