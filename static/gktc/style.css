@@ -11,9 +11,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #a3a3a3;
+  background-color: #fdf7fb;
   font-family: Arial-Nova-Condensed;
-  color: #a3a3a3;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -29,19 +28,16 @@ body {
   margin: auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  border-width: 20px 2px 20px 2px;
+  border-width: 25px 2px 25px 2px;
   border-style: solid;
   border-color: #f84603;
-  background-color: black;
+  background-color: #fdf7fb;
 }
 
 .header {
   width: 100%;
   display: flex;
   margin-top: 7vh;
-  padding-top: 1vh;
-  background-color: white;
-
 }
 
 .logo {
@@ -51,20 +47,12 @@ body {
 .foss-logo img {
   width: 32%;
   margin-left: 20%;
-
-}
-.hacktober-logo img {
-  margin-left: -30%;
-  width: 180%;
-  height:auto;
-
 }
 
 .tinkerhub-logo img {
   width: 50%;
-  margin-left: 37%;
+  margin-left: 37.5%;
   margin-top: 1px;
-
 }
 
 .event-header {
@@ -77,9 +65,9 @@ body {
 .card-purpose {
   width: max-content;
   margin: auto;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 3vh;
   line-height: 23px;
   border-bottom: 1px solid #f84603;
 }
@@ -90,13 +78,7 @@ body {
   margin-top: 2vh;
   border-radius: 10px;
 }
-.hacktober-svg img {
-  margin-top: 2vh;
-  margin-left: 40.5%;
-  transform: rotate(-0.25turn);
-  width: 16%;
-  height:auto;
-}
+
 .details {
   font-size: 16px;
   text-align: center;
@@ -110,7 +92,7 @@ body {
 .congrats {
   font-size: 20px;
   text-align: center;
-  margin-top: 3vh;
+  margin-top: 5vh;
   font-family: Arial-Nova-Condensed-Bold;
 }
 
