@@ -9,8 +9,11 @@
       href="{{url_for('static', filename='gktc/style.css')}}"
       type="text/css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Sacramento&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body >
     <!--include back(return to home) button-->
     {% include 'main/back-button.html' %}
 
@@ -31,16 +34,16 @@
         </div>
       </div>
       <div class="content">
-        <div class="event-header">HACKTOBERFIESTA-21</div>
+        <div class="event-header color_change">HACKTOBERFIESTA-21</div>
         <div class="card-purpose">PARTICIPATION CARD</div>
         <div class="image">
           <img src="{{url_for('static', filename='gktc/pic.jpg')}}" />
         </div>
         <div class="details">
-          <div class="participant-name">Gopikrishnan TC</div>
-          <div class="participant-college">GEC Thrissur</div>
+          <div class="participant-name sacramento">Gopikrishnan TC</div>
+          <div class="participant-college ">GEC Thrissur</div>
         </div>
-        <div class="congrats">CONGRATULATIONS</div>
+        <div class="congrats ">CONGRATULATIONS</div>
       </div>
     </div>
 
