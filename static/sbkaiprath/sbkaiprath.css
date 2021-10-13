@@ -11,7 +11,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #fdf7fb;
+    background-color: #d9c2bd;
     font-family: Arial-Nova-Condensed;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -30,7 +30,7 @@
     margin-top: 3vh;
     border-width: 25px 2px 25px 2px;
     border-style: solid;
-    border-color: #f84603;
+    border-color: green;
     background-color: #fdf7fb;
   }
   
@@ -69,7 +69,7 @@
     text-align: center;
     margin-top: 3vh;
     line-height: 23px;
-    border-bottom: 1px solid #f84603;
+    border-bottom: 1px solid green;
   }
   
   .image img {
@@ -77,6 +77,7 @@
     margin-left: 27.5%;
     margin-top: 2vh;
     border-radius: 10px;
+    border: solid green 4px;
   }
   
   .details {
@@ -90,6 +91,7 @@
   }
   
   .congrats {
+    letter-spacing: 2px;
     font-size: 20px;
     text-align: center;
     margin-top: 5vh;
@@ -121,6 +123,7 @@
     .image img {
       width: 55%;
       margin-left: 22.5%;
+      border: solid green 2px;
     }
   
     .card-purpose {
