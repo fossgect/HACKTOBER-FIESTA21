@@ -4,7 +4,10 @@
 - Sign up to [hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - Have python and pip installed on your system
 
+<br>
 
+## Note
+- Create a new pull request, only after the previous one is accepted
 
 <br>
 
