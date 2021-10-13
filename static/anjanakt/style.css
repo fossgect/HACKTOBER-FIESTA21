@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdf7fb;
+  background-color: #ffc7c7;
   font-family: Arial-Nova-Condensed;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -20,6 +20,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-image: linear-gradient(rgb(166, 250, 166),rgb(70, 170, 209));
 }
 
 .container {
@@ -30,8 +31,20 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
-  background-color: #fdf7fb;
+  border-color: rgb(146, 25, 85);
+  background-color: #e6ffe8;
+  box-shadow: 7px 7px 25px rgb(95, 9, 49);
+}
+
+.container:hover .image{
+  transform: scale(1.1);
+  border-radius: 0;
+  transition-timing-function: ease-out;
+}
+.container:hover .congrats{
+  font-family: 'Cursive';
+  transform: scale(1.3);
+  font-weight: bold;
 }
 
 .header {
@@ -59,7 +72,7 @@ body {
   font-size: 25px;
   text-align: center;
   margin-top: 6vh;
-  font-family: Arial-Nova-Condensed-Bold;
+  font-weight: normal;
 }
 
 .card-purpose {
@@ -69,7 +82,7 @@ body {
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #f84603;
+  border-bottom: 1px solid rgb(146, 25, 85);
 }
 
 .image img {
@@ -87,8 +100,12 @@ body {
 
 .participant-college {
   font-size: 14px;
+  font-family: 'Pacifico';
 }
-
+.participant-name{
+  font-family: Brush Script MT;
+  font-weight: bold;
+}
 .congrats {
   font-size: 20px;
   text-align: center;
