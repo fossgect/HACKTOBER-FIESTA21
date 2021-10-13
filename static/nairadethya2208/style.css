@@ -30,8 +30,8 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
-  background-color: #fdf7fb;
+  border-color: none;
+  background-image: url(nairadethya2208/backgroundscore.png);
 }
 
 .header {
@@ -69,7 +69,7 @@ body {
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #f84603;
+  border-bottom: 1px solid none;
 }
 
 .image img {
@@ -77,6 +77,13 @@ body {
   margin-left: 27.5%;
   margin-top: 2vh;
   border-radius: 10px;
+  transition: width 2s,height 2s;
+}
+
+.image:hover{
+  width: 150px;
+  height: 150px;
+
 }
 
 .details {
@@ -121,7 +128,10 @@ body {
   .image img {
     width: 55%;
     margin-left: 22.5%;
+   
   }
+  
+  
 
   .card-purpose {
     margin-top: 4vh;
