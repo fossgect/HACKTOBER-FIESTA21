@@ -31,7 +31,7 @@ body {
   border-width: 25px 2px 25px 2px;
   border-style: solid;
   border-color: #f84603;
-  background-color: #fdf7fb;
+  /* background-color: #fdf7fb; */
 }
 
 .header {
@@ -87,10 +87,12 @@ body {
 
 .participant-college {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .congrats {
   font-size: 20px;
+  font-weight: 700;
   text-align: center;
   margin-top: 5vh;
   font-family: Arial-Nova-Condensed-Bold;
@@ -171,3 +173,31 @@ body {
     width: 90%;
   }
 }
+
+.color_change {
+  width: 100%;
+  height: 100%;
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: #001F3F;
+  }
+  50% {
+    color: #FF4136;
+  }
+  100%{
+    color: #001F3F;
+  }
+}
+.comforta{
+  font-family: 'Comfortaa', cursive;
+}
+.sacramento{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
