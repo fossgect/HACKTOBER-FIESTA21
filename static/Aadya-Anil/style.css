@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #fdf7fb;
   font-family: Arial-Nova-Condensed;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -20,6 +20,8 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-image: url("bg.jpg");
+  background-size: cover;
 }
 
 .container {
@@ -30,8 +32,8 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #0b1bf8;
-  background-color: #dbf8f7;
+  background-image: linear-gradient(#f84603, orange, #f84603);
+  background-color: black;
 }
 
 .header {
@@ -45,20 +47,28 @@ body {
 }
 
 .foss-logo img {
-  width: 32%;
-  margin-left: 20%;
+  width: 40px;
+  margin-left: 20px;
+}
+
+.hacktoberfest-logo img {
+  width: 90px;
+  height: 35px;
+  margin-left: 50px;
+  margin-top: -1px;
 }
 
 .tinkerhub-logo img {
-  width: 50%;
-  margin-left: 37.5%;
+  width: 70px;
+  margin-left: 37px;
   margin-top: 1px;
 }
 
 .event-header {
-  font-size: 25px;
+  font-size: 32px;
   text-align: center;
-  margin-top: 6vh;
+  margin-top: 25px;
+  background-image: linear-gradient(green, lightgreen, green);
   font-family: Arial-Nova-Condensed-Bold;
 }
 
@@ -66,10 +76,11 @@ body {
   width: max-content;
   margin: auto;
   font-size: 16px;
+  font-weight: bolder;
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #f86a36;
+  border-bottom: 1px solid #f84603;
 }
 
 .image img {
@@ -87,12 +98,13 @@ body {
 
 .participant-college {
   font-size: 14px;
+  font-style: italic;
 }
 
 .congrats {
   font-size: 20px;
   text-align: center;
-  margin-top: 5vh;
+  margin-top: 7px;
   font-family: Arial-Nova-Condensed-Bold;
 }
 
