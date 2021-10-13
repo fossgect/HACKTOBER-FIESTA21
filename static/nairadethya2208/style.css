@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdf7fb;
+  background-color: none;
   font-family: Arial-Nova-Condensed;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
