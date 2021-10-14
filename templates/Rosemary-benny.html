@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="static/Rosemary-benny/style.css">
     <title>Rosemary Benny</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="{{url_for('static', filename='Rosemary-benny/style.css')}}"
-      type="text/css"
-    />
-  </head>
-  <body>
-    <!--include back(return to home) button-->
+</head>
+<body>
     {% include 'main/back-button.html' %}
-
-    <!-- id="download" gives the div to be downloaded as PNG -->
     <div class="container" id="download">
-      <div class="header">
-        <div class="foss-logo">
-          <img
-            src="{{url_for('static', filename='main/images/foss.png')}}"
-            alt="no logo found"
-          />
+        <div class="header">
+            <div class="foss-logo">
+              <img
+                src="{{url_for('static', filename='main/images/foss.png')}}"
+                alt="no logo found"
+              />
+            </div>
+            <div class="tinkerhub-logo">
+              <img
+                src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
+                alt="no logo found"
+              />
+            </div>
+          </div>
+          <div class="event-header">HACKTOBERFIESTA-21</div>
+            <div class="card-purpose">PARTICIPATION CARD</div>
+        <div class="img-container">
+            <img src="static/Rosemary-benny/rose.jpeg" alt="Photo profile">
         </div>
-        <div class="tinkerhub-logo">
-          <img
-            src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
-            alt="no logo found"
-          />
+        <p class="full-name">ROSEMARY BENNY</p>
+        <p class="role">GEC THRISSUR</p>
+        <p class="description">
+            I am a sophomore at Government Engineering College, Thrissur pursuing B.tech in CSE.
+        </p>
+        <div class="social-container">
+            <button>
+                <a href="https://github.com/Rosemary-benny" target="_blank"><i class="fab fa-github"></i></a>
+            </button>
+            <button>
+                <a href="https://www.linkedin.com/in/rosemary-benny007/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </button>
         </div>
-      </div>
-      <div class="content">
-        <div class="event-header">HACKTOBERFIESTA-21</div>
-        <div class="card-purpose">PARTICIPATION CARD</div>
-        <div class="image">
-          <img src="{{url_for('static', filename='Rosemary-benny/rose.jpeg')}}" />
-        </div>
-        <div class="details">
-          <div class="participant-name">Rosemary Benny</div>
-          <div class="participant-college">GEC THRISSUR</div>
-        </div>
-        <div class="congrats">CONGRATULATIONS</div>
-      </div>
+        <div class="content">
+            <div class="congrats">CONGRATULATIONS</div>
+          </div>
     </div>
-
-    <!--include download card button-->
     {% include 'main/download-card.html' %}
-  </body>
+</body>
 </html>
+
+
+
+  

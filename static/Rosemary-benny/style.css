@@ -1,174 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7fb;
+  font-family: Arial-Nova-Condensed;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  height: 80vh;
+  width: 24vw;
+  margin: auto;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  border-width: 25px 2px 25px 2px;
+  border-color: #e64409;
+  background-color: #f9f9f9;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  transition: width 0.4s, height 0.4s,
+      border-radius 0.4s;
+}
+
+.container:hover {
+  width: 340px;
+  height: 440px;
+  border-radius: 6px;
+}
+
+.img-container {
+  width: 170px;
+  height: 170px;
+  min-height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 40px 5px rgba(205, 187, 187, 0.2);
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.full-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.role,
+.description {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.role {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #ffbe44;
+}
+
+.social-container {
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-container button {
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  width: 20px;
+  height: 40px;
+  font-size: 1.7em;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.container:hover .social-container button {
+  transform: translateX(60px);
+  transition-delay: 0.3s;
+}
+
+.container:hover .social-container button:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.fa-linkedin-in{
+  color: rgb(0, 0, 0);
+}
+.fa-github{
+  color: rgb(0, 0, 0);
+}
 @font-face {
-    font-family: Arial-Nova-Condensed;
-    src: url(../main/font/ArialNovaCond.ttf);
-  }
-  
-  @font-face {
-    font-family: Arial-Nova-Condensed-Bold;
-    src: url(../main/font/ArialNovaCond-Bold.ttf);
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #fdf7fb;
-    font-family: Arial-Nova-Condensed;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
+  font-family: Arial-Nova-Condensed;
+  src: url(../main/font/ArialNovaCond.ttf);
+}
+
+@font-face {
+  font-family: Arial-Nova-Condensed-Bold;
+  src: url(../main/font/ArialNovaCond-Bold.ttf);
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  margin-top: 5vh;
+}
+
+.logo {
+  flex: 50%;
+}
+
+.foss-logo img {
+  width: 32%;
+  margin-left: 20%;
+}
+
+.tinkerhub-logo img {
+  width: 50%;
+  margin-left: 37.5%;
+  margin-top: 1px;
+}
+
+.event-header {
+  font-size: 27px;
+  text-align: center;
+  margin-top: 6vh;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+.card-purpose {
+  width: max-content;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3vh;
+  line-height: 23px;
+  border-bottom: 2px solid #f84603;
+}
+
+.image img {
+  width: 45%;
+  margin-left: 27.5%;
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+
+.details {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.participant-college {
+  font-size: 14px;
+}
+
+.congrats {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5vh;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1100px) {
   .container {
-    height: 80vh;
-    width: 24vw;
-    margin: auto;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    border-width: 25px 2px 25px 2px;
-    border-style: solid;
-    border-color: #f84603;
-    background-color: #fdf7fb;
+    height: 90vh;
+    width: 30vw;
   }
-  
-  .header {
-    width: 100%;
-    display: flex;
-    margin-top: 7vh;
-  }
-  
-  .logo {
-    flex: 50%;
-  }
-  
-  .foss-logo img {
-    width: 32%;
-    margin-left: 20%;
-  }
-  
-  .tinkerhub-logo img {
-    width: 50%;
-    margin-left: 37.5%;
-    margin-top: 1px;
-  }
-  
-  .event-header {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 6vh;
-    font-family: Arial-Nova-Condensed-Bold;
-  }
-  
-  .card-purpose {
-    width: max-content;
-    margin: auto;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 3vh;
-    line-height: 23px;
-    border-bottom: 1px solid #f84603;
-  }
-  
+
   .image img {
-    width: 45%;
-    margin-left: 27.5%;
-    margin-top: 2vh;
-    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
   }
-  
-  .details {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 2vh;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    height: 90vh;
+    width: 35vw;
   }
-  
-  .participant-college {
-    font-size: 14px;
+
+  .image img {
+    width: 55%;
+    margin-left: 22.5%;
   }
-  
-  .congrats {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5vh;
-    font-family: Arial-Nova-Condensed-Bold;
+
+  .card-purpose {
+    margin-top: 4vh;
+    margin-bottom: 12.5%;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 1100px) {
-    .container {
-      height: 90vh;
-      width: 30vw;
-    }
-  
-    .image img {
-      width: 50%;
-      margin-left: 25%;
-    }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+  .header {
+    margin-top: 10vh;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 1000px) {
-    .container {
-      height: 90vh;
-      width: 35vw;
-    }
-  
-    .image img {
-      width: 55%;
-      margin-left: 22.5%;
-    }
-  
-    .card-purpose {
-      margin-top: 4vh;
-    }
+
+  .container {
+    width: 40%;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 800px) {
-    .header {
-      margin-top: 10vh;
-    }
-  
-    .container {
-      width: 40%;
-    }
-  
-    .image img {
-      margin-top: 4vh;
-    }
+
+  .image img {
+    margin-top: 4vh;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 675px) {
-    .container {
-      width: 50%;
-    }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 675px) {
+  .container {
+    width: 50%;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 500px) {
-    .header {
-      margin-top: 8vh;
-    }
-  
-    .container {
-      width: 70%;
-    }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 500px) {
+  .header {
+    margin-top: 8vh;
   }
-  
-  /* ----------------------------------------------------------------- */
-  
-  @media only screen and (max-width: 400px) {
-    .container {
-      width: 90%;
-    }
+
+  .container {
+    width: 70%;
   }
-  
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
