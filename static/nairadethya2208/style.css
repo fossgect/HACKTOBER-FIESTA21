@@ -28,7 +28,7 @@ body {
   margin: auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  background-image: url('nairadethya2208/newbackgroundscore.png');
+  background-image: url("bg.png");
 }
 
 .header {
@@ -78,8 +78,8 @@ body {
 }
 
 .image:hover{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 
 }
 
