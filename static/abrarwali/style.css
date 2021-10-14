@@ -4,14 +4,14 @@
 }
 
 @font-face {
-  font-family: Arial-Nova-Condensed-Bold;
+  font-family: Arial, Helvetica, sans-serif;
   src: url(../main/font/ArialNovaCond-Bold.ttf);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdf7fb;
+  background-color: #00A4CCFF;
   font-family: Arial-Nova-Condensed;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -31,7 +31,9 @@ body {
   border-width: 25px 2px 25px 2px;
   border-style: solid;
   border-color: #f84603;
-  background-color: #fdf7fb;
+  background-color: #91c9bb;
+
+  /* background-color: #fdf7fb; */
 }
 
 .header {
