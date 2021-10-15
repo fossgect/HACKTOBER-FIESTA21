@@ -4,10 +4,27 @@
         <title>Not Found</title>
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: Arial-Nova-Condensed-Bold;;
+            src: url(../../static/main/font/ArialNovaCond-Bold.ttf);
+        }
+        body {
+            background-color: #fdf7fb;
+        }
+        #error-mssg {
+            color: #f84603;
+            text-align:center;
+            font-family: Arial-Nova-Condensed-Bold;
+            font-size: 22px;
+            margin:100px;
+        }
+    </style>
     </head>
     <body>
-    	{{content}} non-existent
-    	<br/>
-    	Return <a href="/">Home</a>
+        {% include 'main/back-button.html'%}
+    	<div id="error-mssg">
+            {{content}} non-existent
+        </div>
     </body>
 </html>
