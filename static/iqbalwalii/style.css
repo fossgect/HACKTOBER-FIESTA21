@@ -30,8 +30,9 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #0b1bf8;
-  background-color: #dbf8f7;
+  border-color: #1b080c;
+  background-color: #fdfdfd;
+  border-radius: 20px;
 }
 
 .header {
