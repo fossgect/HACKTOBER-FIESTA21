@@ -4,44 +4,12 @@
   border-radius: 5px;
   border-color: #fbf5f5;
   border-width: 2px;
-  margin: auto !important;
-  width: 15%;
-  margin-left: 42.5%;
-  color: #fbf5f5;
-  font-size: 17px;
-  font-family: Arial-Nova-Condensed-Bold;
-}
-
-.download-card {
-  background-image: linear-gradient(
-    to right,
-    #232526 0%,
-    #414345 51%,
-    #232526 100%
-  );
   margin: 20px 0px 50px 0px;
   width: 15%;
   margin-left: 42.5%;
   color: #fbf5f5;
   font-size: 17px;
   font-family: Arial-Nova-Condensed-Bold;
-}
-.download-card {
-  margin: 10px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-}
-.download-card:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
 }
 
 .back-button {
