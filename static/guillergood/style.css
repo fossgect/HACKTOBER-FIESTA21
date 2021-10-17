@@ -30,8 +30,54 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
+  border-radius: 25px;
+  border-color: #003c80;
   background-color: #fdf7fb;
+}
+.container:hover {
+  background: linear-gradient(
+        to left,
+        transparent 0%,
+        rgba(131, 58, 180, 1) 5%,
+        transparent 40%,
+        rgba(253, 29, 29, 1) 50%,
+        transparent 60%,
+        rgba(252, 176, 69, 1) 100%
+      )
+      0 0 repeat-x,
+    linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(131, 58, 180, 1) 5%,
+        transparent 40%,
+        rgba(253, 29, 29, 1) 50%,
+        transparent 60%,
+        rgba(252, 176, 69, 1) 100%
+      )
+      100% 100% repeat-x,
+    linear-gradient(
+        to top,
+        transparent 0%,
+        rgba(131, 58, 180, 1) 5%,
+        transparent 40%,
+        rgba(253, 29, 29, 1) 50%,
+        transparent 60%,
+        rgba(252, 176, 69, 1) 100%
+      )
+      0 100% repeat-y,
+    linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(131, 58, 180, 1) 5%,
+        transparent 40%,
+        rgba(253, 29, 29, 1) 50%,
+        transparent 60%,
+        rgba(252, 176, 69, 1) 100%
+      )
+      100% 0 repeat-y,
+    white center no-repeat;
+  background-size: 300% 5px, 300% 5px, 5px 300%, 5px 300%, 100% 100%;
+  transition: 1.5s linear;
 }
 
 .header {
@@ -69,7 +115,7 @@ body {
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #f84603;
+  border-bottom: 1px solid #003c80;
 }
 
 .image img {
