@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fdf7fb;
-  font-family: Arial-Nova-Condensed;
+  font-family: 'Montserrat', sans-serif;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -20,6 +20,11 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.participant-name{
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .container {
@@ -30,7 +35,7 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
+  border-color: #ab4586;
   background-color: #fdf7fb;
 }
 
@@ -87,6 +92,8 @@ body {
 
 .participant-college {
   font-size: 14px;
+  font-weight: 500;
+
 }
 
 .congrats {
