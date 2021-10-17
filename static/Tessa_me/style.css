@@ -103,6 +103,10 @@ body {
     height: 90vh;
     width: 30vw;
   }
+  .participant-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+  }
 
   .image img {
     width: 50%;
