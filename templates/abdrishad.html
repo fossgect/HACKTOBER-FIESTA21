@@ -16,13 +16,16 @@
 
     <!-- id="download" gives the div to be downloaded as PNG -->
     <div class="container" id="download">
+
       <div class="header">
+
         <div class="foss-logo">
           <img
             src="{{url_for('static', filename='main/images/foss.png')}}"
             alt="no logo found"
           />
         </div>
+
         <div class="tinkerhub-logo">
           <img
             src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
@@ -40,10 +43,15 @@
           <div class="participant-name">ABDULLAH RISHAD</div>
           <div class="participant-college">GEC THRISSUR</div>
         </div>
-        <div class="congrats">CONGRATULATIONS</div>
+        <div class="congrats">Congratulations</div>
+      </div>
+      <div class="hactober">
+        <img
+                src="{{url_for('static', filename='abdrishad/festlogo.png')}}"
+                alt="no logo found"
+        />
       </div>
     </div>
-
     <!--include download card button-->
     {% include 'main/download-card.html' %}
   </body>

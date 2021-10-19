@@ -7,12 +7,36 @@
   font-family: Arial-Nova-Condensed-Bold;
   src: url(../main/font/ArialNovaCond-Bold.ttf);
 }
-
+@font-face {
+  font-family: squealer-embossed;
+  src: url(../abdrishad/fonts/squealer-embossed.ttf);
+}
+@font-face {
+  font-family: squealer;
+  src: url(../abdrishad/fonts/squealer.ttf);
+}
+@font-face {
+  font-family: milla-cilla;
+  src: url(../abdrishad/fonts/milla-cilla.otf);
+}
+@font-face {
+  font-family: AvenueX-Regular;
+  src: url(../abdrishad/fonts/AvenueX-Regular.otf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../abdrishad/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../abdrishad/fonts/Poppins-Light.ttf);
+}
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdf7fb;
-  font-family: Arial-Nova-Condensed;
+  background-color: #2f3531;
+  background-image: url('https://media.giphy.com/media/l2Sqf1fbj1qrmaJ6E/source.gif');
+  background-size: cover;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -21,81 +45,112 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-
+#selector{
+  width:100%;
+  height:100%;
+}
 .container {
   height: 80vh;
   width: 24vw;
   margin: auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  border-width: 25px 2px 25px 2px;
+  border-width: 7px 2px 85px 2px;
   border-style: solid;
-  border-color: #f84603;
-  background-color: #fdf7fb;
+  border-color: #2B3531;
+  border-radius: 17px;
+  background-color: #91A88C;
+  background-image: url()
+  background-size:cover;
+  background-repeat: no-repeat;
+
 }
 
 .header {
   width: 100%;
   display: flex;
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 .logo {
-  flex: 50%;
+  flex: 52%;
 }
 
 .foss-logo img {
   width: 32%;
-  margin-left: 20%;
+  margin-left: 12%;
 }
 
 .tinkerhub-logo img {
   width: 50%;
-  margin-left: 37.5%;
-  margin-top: 1px;
+  margin-left: 46%;
+  margin-top: 3px;
 }
 
 .event-header {
-  font-size: 25px;
+  font-size: 36px;
   text-align: center;
-  margin-top: 6vh;
-  font-family: Arial-Nova-Condensed-Bold;
+  margin-top: 5vh;
+  color: #2B3531;font-family: squealer-embossed;
+
+
 }
 
 .card-purpose {
   width: max-content;
   margin: auto;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: Poppins-Light;
+  color:black;
   text-align: center;
-  margin-top: 3vh;
-  line-height: 23px;
-  border-bottom: 1px solid #f84603;
+  margin-top: 4vh;
+  line-height: 40px;
+  border-bottom: 2px solid #2B3531;
 }
 
 .image img {
-  width: 45%;
-  margin-left: 27.5%;
+  width: 50%;
+  height: 55%;
+  margin-left: 24%;
   margin-top: 2vh;
-  border-radius: 10px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #A88771;
+  border-radius: 12px;
+  filter: drop-shadow(0 0 1rem #a88671);
 }
 
 .details {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 1vh;
+  font-family: Poppins-Regular;
+  color: #2f4039;
+
 }
+
+
 
 .participant-college {
   font-size: 14px;
+  font-family: Arial-Nova-Condensed;
+  text-decoration-line: overline  ;
 }
 
 .congrats {
-  font-size: 20px;
+  font-size: 27px;
   text-align: center;
-  margin-top: 5vh;
-  font-family: Arial-Nova-Condensed-Bold;
+  margin-top: 3vh;
+  font-family: squealer;
+  color:#2B3531;
 }
-
+.hactober img {
+    width: 42%;
+    height: 39%;
+margin-top: 1vh;
+    margin-left: 27%;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 1100px) {
