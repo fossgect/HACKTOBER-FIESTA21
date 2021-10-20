@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='Ash-PJ/style.css')}}"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!--include back(return to home) button-->
+    {% include 'main/back-button.html' %}
+
+    <!-- id="download" gives the div to be downloaded as PNG -->
+    <div class="container" id="download">
+      <div class="header">
+        <div class="foss-logo">
+          <img
+            src="{{url_for('static', filename='main/images/foss.png')}}"
+            alt="no logo found"
+          />
+        </div>
+        <div class="tinkerhub-logo">
+          <img
+            src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
+            alt="no logo found"
+          />
+        </div>
+      </div>
+      <div class="content">
+        <div class="event-header">HACKTOBERFIESTA-21</div>
+        <div class="card-purpose">PARTICIPATION CARD</div>
+        <div class="image">
+          <img src="{{url_for('static', filename='Ash-PJ/AshwinPJoby.jpg')}}" />
+        </div>
+        <div class="details">
+          <div class="participant-name">Ashwin P Joby</div>
+          <div class="participant-college">Government engineering college, Thrissur</div>
+        </div>
+        <div class="congrats">CONGRATULATIONS</div>
+      </div>
+    </div>
+
+    <!--include download card button-->
+    {% include 'main/download-card.html' %}
+  </body>
+</html>
