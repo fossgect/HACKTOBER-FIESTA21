@@ -1,0 +1,200 @@
+
+@font-face {
+  font-family: Arial-Nova-Condensed;
+  src: url(../main/font/ArialNovaCond.ttf);
+}
+@font-face {font-family: "Old English Cyr"; 
+src: url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.eot"); 
+src: url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.woff") format("woff"), url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1c19e1e9bc7b81490b648bb14c04392e.svg#Old English Cyr") format("svg"); }
+@font-face {font-family: "MonotypeOldEnglishTextW01"; src: url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.eot"); src: url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.woff") format("woff"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.svg#MonotypeOldEnglishTextW01") format("svg"); } 
+@font-face {
+  font-family: Arial-Nova-Condensed-Bold;
+  src: url(../main/font/ArialNovaCond-Bold.ttf);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7fb;
+  font-family: "Old English Cyr";
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color:#362222;
+ 
+}
+
+.container {
+  height: 80vh;
+  width: 24vw;
+  margin: auto;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  border-width: 25px 2px 25px 2px;
+  border-style: solid;
+  border-color: #362222;
+  background-image: url('/static/mithunnx/old.jpg')
+ 
+  
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  margin-top: 7vh;
+}
+
+.logo {
+  flex: 50%;
+}
+
+.foss-logo img {
+  width: 32%;
+  margin-left: 20%;
+}
+
+.tinkerhub-logo img {
+  width: 50%;
+  margin-left: 37.5%;
+  margin-top: 1px;
+}
+
+.event-header {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 6vh;
+  font-family: "Old English Cyr";
+  color:#362222;
+
+}
+
+.card-purpose {
+  width: max-content;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3vh;
+  line-height: 23px;
+  border-bottom: 1px solid #362222;
+}
+
+.image img {
+  width: 45%;
+  margin-left: 27.5%;
+  margin-top: 2vh;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: #B85C38;
+
+  filter: contrast(1.1) saturate(1.9) sepia(0.7) grayscale(0.3) opacity(.8);
+  
+ 
+  
+}
+
+.details {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.participant-college {
+  font-size: 14px;
+}
+
+.congrats {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5vh;
+  font-family: "Old English Cyr";
+  color:#362222;
+ 
+}
+
+.hlogo img {
+  margin-top: 2vh;
+  margin-left: 40.5%;
+  width: 17%;
+  height:auto;
+  filter:opacity(.6) grayscale(.5);
+}
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    height: 90vh;
+    width: 30vw;
+  }
+
+  .image img {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    height: 90vh;
+    width: 35vw;
+  }
+
+  .image img {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+  .card-purpose {
+    margin-top: 4vh;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+  .header {
+    margin-top: 10vh;
+  }
+
+  .container {
+    width: 40%;
+  }
+
+  .image img {
+    margin-top: 4vh;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 675px) {
+  .container {
+    width: 50%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 500px) {
+  .header {
+    margin-top: 8vh;
+  }
+
+  .container {
+    width: 70%;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}

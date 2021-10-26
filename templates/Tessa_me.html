@@ -1,0 +1,53 @@
+<!-- git hub username:Tessa-me (with a hyphen) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tessa Ann Josy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='Tessa_me/style.css')}}"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!--include back(return to home) button-->
+    {% include 'main/back-button.html' %}
+
+    <!-- id="download" gives the div to be downloaded as PNG -->
+    <div class="container" id="download">
+      <div class="header">
+        <div class="foss-logo">
+          <img
+            src="{{url_for('static', filename='main/images/foss.png')}}"
+            alt="no logo found"
+          />
+        </div>
+        <div class="tinkerhub-logo">
+          <img
+            src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
+            alt="no logo found"
+          />
+        </div>
+      </div>
+      <div class="content">
+        <div class="event-header">HACKTOBERFIESTA-21</div>
+        <div class="card-purpose">PARTICIPATION CARD</div>
+        <div class="image">
+          <img src="{{url_for('static', filename='Tessa_me/me2.jpg')}}" />
+        </div>
+        <div class="details">
+          <div class="participant-name">Tessa Ann Josy</div>
+          <div class="participant-college">GEC Thrissur</div>
+        </div>
+        <div class="congrats">CONGRATULATIONS</div>
+        <p>We wish you all the best for your future endeavours</p>
+        <hr>
+      </div>
+    </div>
+
+    <!--include download card button-->
+    {% include 'main/download-card.html' %}
+  </body>
+</html>
