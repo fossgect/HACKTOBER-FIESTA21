@@ -1,4 +1,4 @@
-# HACKTOBER FIESTA - 21
+# HACKTOBER FIESTA - 2021
 
 ## Prerequisites
 - Sign up to [hacktoberfest](https://hacktoberfest.digitalocean.com/)
