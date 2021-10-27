@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Arial-Nova-Condensed;
+  src: url(../font/ArialNovaCond.ttf);
+}
+
+@font-face {
+  font-family: Arial-Nova-Condensed-Bold;
+  src: url(../font/ArialNovaCond-Bold.ttf);
+}
+body {
+  background-color: #fdf7fb;
+}
+
+.participant-header {
+  text-align: center;
+  font-size: 25px;
+  color: #b23a28;
+  font-family: Arial-Nova-Condensed-Bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.participant {
+  color: #f84603;
+  text-decoration: none;
+}
+
+.name {
+  text-align: center;
+  font-size: 17px;
+  font-family: Arial-Nova-Condensed-Bold;
+  margin-top: 40px;
+}
+
+.college {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial-Nova-Condensed;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
