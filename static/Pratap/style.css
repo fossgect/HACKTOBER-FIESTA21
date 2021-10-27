@@ -11,7 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdf7fb;
+  background-color: #2b2d2e;
   font-family: Arial-Nova-Condensed;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -30,9 +30,18 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
+  border-color: #c02433;
   background-color: #fdf7fb;
+  border-radius: 25px;
+  box-shadow: 10px 10px 25px #eaeafd;
 }
+
+
+.container:hover{
+  box-shadow: 0 0 11px 
+  rgb(238, 220, 56);
+}
+
 
 .header {
   width: 100%;
@@ -76,7 +85,8 @@ body {
   width: 45%;
   margin-left: 27.5%;
   margin-top: 2vh;
-  border-radius: 10px;
+  border-radius: 90px;
+  border: solid #c02433 4px;
 }
 
 .details {
