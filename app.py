@@ -8,6 +8,13 @@ app = Flask(__name__)
 def home():
     return render_template('main/index.html')
 
+@app.route('/&namelist')
+def namelist_not_allowed():
+    return render_template('main/404.html', content="Page")
+
+@app.route('/participants')
+def participants():
+    return render_template('main/all-participants.html')
 
 @app.route('/<name>')
 def card(name):

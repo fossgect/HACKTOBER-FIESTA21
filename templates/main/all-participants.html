@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Participants</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='main/css/all-participants.css')}}" type="text/css" />
+</head>
+
+<body>
+    <div class="participants">
+        {% include 'main/back-button.html'%}
+        <h4 class="participant-header"></h4>
+        {% include '&namelist.html' %}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='main/js/script.js')}}"></script>
+</body>
+<html>
+
+</html>
+
+</html>
