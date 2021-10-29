@@ -56,7 +56,7 @@ body {
 }
 
 .event-header {
-  font-size: 25px;
+  font-size: 24px;
   text-align: center;
   margin-top: 6vh;
   font-family: Arial-Nova-Condensed-Bold;
@@ -65,11 +65,11 @@ body {
 .card-purpose {
   width: max-content;
   margin: auto;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #ff9e7b;
+  border-bottom: 1px solid #bb5e3c;
 }
 
 .image img {
