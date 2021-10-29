@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>itsjatin135s</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='itsjatin135s/style.css')}}"
+      type="text/css"
+    />
+  </head>
+  <body style="background-image: url(https://i.pinimg.com/originals/a7/c9/87/a7c98793edb93ab88138283785399af3.gif); ">
+    <!--include back(return to home) button-->
+    {% include 'main/back-button.html' %}
+
+    <!-- id="download" gives the div to be downloaded as PNG -->
+    <div class="container" id="download" style="background-image: url(https://i.pinimg.com/originals/a7/c9/87/a7c98793edb93ab88138283785399af3.gif);  border-radius: 8px;">
+      <div class="header"style="background-color: aliceblue; border-radius: 8px; line-height: 148px; margin-top: -20px;">
+        <div class="foss-logo">
+          <img
+            src="{{url_for('static', filename='main/images/foss.png')}}"
+            alt="no logo found"
+          />
+        </div>
+        <div class="tinkerhub-logo">
+          <img
+            src="{{url_for('static', filename='main/images/tinkerhub.png')}}"
+            alt="no logo found"
+          />
+        </div>
+      </div>
+      <div class="content">
+        <div class="event-header" style="background-color: aliceblue; margin-top: 5px; border-radius: 5px;">HACKTOBERFIESTA-21</div>
+        <div class="card-purpose"><p style="color: white;">PARTICIPATION CARD</p></div>
+        <div class="image">
+          <img style="border-radius: 106px;" src="{{url_for('static', filename='itsjatin135s/example.jpg')}}" />
+        </div>
+        <div class="details">
+          <div class="participant-name" style="color: white;">Jatin Saini</div>
+          <div class="participant-college" style="color: white;">M.I.T.R.C</div>
+        </div>
+        <div class="congrats" style="color: white;">CONGRATULATIONS</div>
+      </div>
+    </div>
+
+    <!--include download card button-->
+    {% include 'main/download-card.html' %}
+  </body>
+</html>
