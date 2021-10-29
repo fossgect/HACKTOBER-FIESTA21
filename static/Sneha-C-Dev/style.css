@@ -65,11 +65,11 @@ body {
 .card-purpose {
   width: max-content;
   margin: auto;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   margin-top: 3vh;
   line-height: 23px;
-  border-bottom: 1px solid #f84603;
+  border-bottom: 1px solid #ff9e7b;
 }
 
 .image img {
@@ -80,7 +80,7 @@ body {
 }
 
 .details {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   margin-top: 2vh;
 }
