@@ -30,7 +30,7 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
+  border-image: linear-gradient(rgb(255, 204, 204), rgb(204, 204, 255)) 1;
   background-color: #fdf7fb;
 }
 
