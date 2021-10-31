@@ -56,10 +56,14 @@ body {
 }
 
 .event-header {
+  background-color: #f4511e;
+  color: white;
   font-size: 25px;
   text-align: center;
   margin-top: 6vh;
   font-family: Arial-Nova-Condensed-Bold;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 .card-purpose {
@@ -76,7 +80,7 @@ body {
   width: 45%;
   margin-left: 27.5%;
   margin-top: 2vh;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 .details {
@@ -94,6 +98,14 @@ body {
   text-align: center;
   margin-top: 5vh;
   font-family: Arial-Nova-Condensed-Bold;
+  animation-name: CONGRATUULATIONS	;
+  animation-duration: 10s;
+}
+@keyframes CONGRATUULATIONS {
+  0%   {background-color: red;}
+  25%  {background-color: pink;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
 
 /* ----------------------------------------------------------------- */
