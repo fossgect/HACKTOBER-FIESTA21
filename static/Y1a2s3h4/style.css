@@ -28,12 +28,28 @@ body {
   margin: auto;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  border-width: 25px 2px 25px 2px;
+  border-width: 25px 4px 25px 4px;
   border-style: solid;
-  border-color: #f84603;
+  border-color: #2660ff;
   background-color: #fdf7fb;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(98, 102, 117, 0.05),
+    0 15px 40px rgba(113, 117, 136, 0.2);
+  animation: bottomUp 1s ease-out;
+  transform: translateY(0%);
 }
-
+@keyframes bottomUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .header {
   width: 100%;
   display: flex;
