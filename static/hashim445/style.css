@@ -30,8 +30,9 @@ body {
   margin-top: 3vh;
   border-width: 25px 2px 25px 2px;
   border-style: solid;
-  border-color: #f84603;
+  border-image: linear-gradient(to right, rgb(255, 255, 255), rgb(20, 17, 185)) 1;
   background-color: #fdf7fb;
+  box-shadow: 10px 10px 8px 10px #352424;
 }
 
 .header {
