@@ -1,0 +1,82 @@
+.container{
+    border-color: green !important;
+}
+.container:hover{
+    -webkit-animation: bgcolor 15s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #ccffff 
+    }
+
+    20% {
+        background-color: #ccccff
+    }
+
+    40% {
+        background-color: #ffccff
+    }
+
+    60% {
+        background-color: #ffcccc
+    }
+    80% {
+        background-color: #ffffcc
+    }
+    100% {
+        background-color: #ccffcc
+    }
+}
+.event-header{
+    animation-name: letter;
+    animation-duration:3s;
+}
+.card-purpose{
+    border-bottom: 1px solid green !important;
+}
+.hacktober-logo{
+    margin-top:25px;
+    width: 50%;
+    float: left;
+}
+.git-logo{
+    float:left;
+    width:25%;
+    height:50px;
+    margin-top:25px;
+    animation-name: anim;
+    animation-duration:3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.git-logo svg:hover{
+    height: 53px;
+    color: green;
+    fill: green;
+}
+.git-logo:hover{
+    height: 53px;
+}
+@keyframes anim {
+    0%{
+        opacity: 0;
+        margin-top: 5px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 25px;
+    }
+}
+@keyframes letter {
+    0%{
+        opacity: 0;
+        letter-spacing:10px;
+    }
+    100%{
+        opacity: 1;
+        letter-spacing:0;
+    }
+}
