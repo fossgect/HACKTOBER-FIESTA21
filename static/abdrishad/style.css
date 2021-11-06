@@ -35,7 +35,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2f3531;
-  background-image: url('https://media.giphy.com/media/l2Sqf1fbj1qrmaJ6E/source.gif');
+  background-image: url('https://media.giphy.com/media/ToMjGpjm9vQhsB4cqVa/giphy.gif');
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -59,7 +59,8 @@ body {
   border-style: solid;
   border-color: #2B3531;
   border-radius: 17px;
-  background-color: #91A88C;
+  background-color: #2b3531;
+  background: linear-gradient(189deg, rgba(127,131,126,1) 25%, #b3a991 86%, rgba(150,167,148,1) 100%);
   background-image: url()
   background-size:cover;
   background-repeat: no-repeat;
@@ -74,24 +75,27 @@ body {
 
 .logo {
   flex: 52%;
+  background-color:  #2b3531;
 }
 
 .foss-logo img {
   width: 32%;
   margin-left: 12%;
+  background-color: rgba(127,131,126,1);
 }
 
 .tinkerhub-logo img {
   width: 50%;
   margin-left: 46%;
   margin-top: 3px;
+  background-color: rgba(127,131,126,1);
 }
 
 .event-header {
   font-size: 36px;
   text-align: center;
   margin-top: 5vh;
-  color: #2B3531;font-family: squealer-embossed;
+  color: #2B3531;font-family: squealer;
 
 
 }
@@ -103,21 +107,21 @@ body {
   font-family: Poppins-Light;
   color:black;
   text-align: center;
-  margin-top: 4vh;
+  margin-top: 5vh;
   line-height: 40px;
-  border-bottom: 2px solid #2B3531;
+  border-bottom: 3px solid #2B3531;
 }
 
 .image img {
-  width: 50%;
-  height: 55%;
-  margin-left: 24%;
+  width: 46%;
+  height: 58%;
+  margin-left: 25%;
   margin-top: 2vh;
-  border-width: 2px 2px 2px 2px;
+  border-width: 1px 3px 1px 3px;
   border-style: solid;
-  border-color: #A88771;
-  border-radius: 12px;
-  filter: drop-shadow(0 0 1rem #a88671);
+  border-color: #2b3531;
+  border-radius: 16px;
+  filter: drop-shadow(1px 3px 1rem #a88671);
 }
 
 .details {
@@ -134,21 +138,24 @@ body {
 .participant-college {
   font-size: 14px;
   font-family: Arial-Nova-Condensed;
+  text-align: center;
   text-decoration-line: overline  ;
+  color: #2B3541;
 }
 
 .congrats {
   font-size: 27px;
   text-align: center;
-  margin-top: 3vh;
-  font-family: squealer;
-  color:#2B3531;
+  margin-top: 4vh;
+  font-family: squealer-embossed;
+  color:#2B4541;
 }
 .hactober img {
     width: 42%;
     height: 39%;
 margin-top: 1vh;
-    margin-left: 27%;
+  align-content: centre;
+  margin-left: 27%;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 /* ----------------------------------------------------------------- */
